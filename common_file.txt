@@ -1,5 +1,5 @@
 #This file is common for all users. 
-HI 
+HI ALL
 Common file
 add text below
 ------ ****** ***** -------
