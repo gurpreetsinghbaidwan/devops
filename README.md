@@ -1,3 +1,4 @@
 #README FILE
 
-This is readme file
+This is repository is for trainnig purpose. 
+
