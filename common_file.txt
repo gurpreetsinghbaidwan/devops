@@ -1,3 +1,4 @@
+#This file is common for all users. 
 HI 
 Common file
 add text below
