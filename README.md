@@ -1,4 +1,4 @@
 #README FILE
 
-This is repository is for trainnig purpose. 
+This repository is for trainnig purpose. 
 
