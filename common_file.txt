@@ -3,5 +3,13 @@ HI ALL
 Common file
 add text below
 ------ ****** ***** ------
+<<<<<<< HEAD
 Training Session
 Changes from Hardeep 
+=======
+
+
+=======
+Training Session 
+Hello Everyone
+>>>>>>> 196e99c07e261e5d83c5ecbf0a3fbfcaa81d25e3
