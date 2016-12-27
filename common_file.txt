@@ -2,6 +2,10 @@
 HI ALL
 Common file
 add text below
+<<<<<<< HEAD
+------ ****** ***** -------
+my changes
+=======
 ------ ****** ***** ------
 <<<<<<< HEAD
 Training Session
@@ -17,10 +21,18 @@ cloud team-
 Training Session 
 Hello Everyone
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 196e99c07e261e5d83c5ecbf0a3fbfcaa81d25e3
+=======
+Hey Everyone
+>>>>>>> c9d1d19661252e6f48cd65c206508335c362c1b2
 =======
 
 Sumit 
 mohit
 >>>>>>> 79f823e8d5268d19b426d1cb92800d4f57c865f3
 >>>>>>> 2d3e1226a93ffaac00ddc47203906e9a20985361
+<<<<<<< HEAD
+=======
+>>>>>>> 54840df330770818a521f19285bcd9a2d2739358
+>>>>>>> c9d1d19661252e6f48cd65c206508335c362c1b2
