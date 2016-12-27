@@ -4,8 +4,19 @@ Common file
 add text below
 ------ ****** ***** ------
 
+<<<<<<< HEAD
+Hello
+cloud team-
+=======
 
 =======
 Training Session 
 Hello Everyone
+<<<<<<< HEAD
 Hey Everyone
+=======
+
+Sumit 
+mohit
+>>>>>>> 79f823e8d5268d19b426d1cb92800d4f57c865f3
+>>>>>>> 2d3e1226a93ffaac00ddc47203906e9a20985361
