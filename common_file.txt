@@ -8,8 +8,19 @@ Training Session
 Changes from Hardeep 
 =======
 
+<<<<<<< HEAD
+Hello
+cloud team-
+=======
 
 =======
 Training Session 
 Hello Everyone
+<<<<<<< HEAD
 >>>>>>> 196e99c07e261e5d83c5ecbf0a3fbfcaa81d25e3
+=======
+
+Sumit 
+mohit
+>>>>>>> 79f823e8d5268d19b426d1cb92800d4f57c865f3
+>>>>>>> 2d3e1226a93ffaac00ddc47203906e9a20985361
