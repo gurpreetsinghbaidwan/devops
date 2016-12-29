@@ -1,0 +1,6 @@
+This is a tesing of file revert
+<<<<<<< HEAD
+Now some chnages in revert file
+final modification
+=======
+>>>>>>> parent of 928c8e2... file modify
