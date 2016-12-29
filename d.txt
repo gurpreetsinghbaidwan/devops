@@ -1,4 +1,2 @@
 hello mohit
-helo rohity
-new commit
 
