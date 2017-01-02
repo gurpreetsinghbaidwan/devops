@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 bjbfj
+=======
+
+first time using ubuntu16.0
+first time using unix
+>>>>>>> 90e2ed1c35493c355676f05440500e9bffef9f39
