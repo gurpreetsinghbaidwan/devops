@@ -1,0 +1,30 @@
+<VirtualHost 192.168.80.251:80>
+    ServerName gurpreet2.cloudsmartz.net
+    ProxyPreserveHost On
+    ProxyRequests Off
+    ErrorLog ${APACHE_LOG_DIR}/gurpreet2.error.log
+    ProxyPass / http://192.168.80.251:8080/
+    ProxyPassReverse / http://192.168.80.251:8080/
+        <Location />
+          Order allow,deny
+          Allow from all
+        </Location>
+</VirtualHost>
+<VirtualHost 192.168.80.251:443>
+    ServerName gurpreet2.cloudsmartz.net
+    ProxyPreserveHost On
+    ProxyRequests Off
+    SSLProxyEngine On
+    SSLEngine on
+    SSLCertificateFile /etc/apache2/ssl/gurpreet2.crt
+    SSLCertificateKeyFile /etc/apache2/ssl/gurpreet2.key
+    ErrorLog ${APACHE_LOG_DIR}/gurpreet2.error.log
+    ProxyPass / https://192.168.80.251:8443/
+    ProxyPassReverse / https://192.168.80.251:8443/
+        <Location />
+          Order allow,deny
+          Allow from all
+        </Location>
+</VirtualHost>
+
+~
