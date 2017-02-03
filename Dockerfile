@@ -11,7 +11,8 @@ RUN wget http://ftp.riken.jp/net/apache/tomcat/tomcat-${TOMCAT_MAJOR}/v${TOMCAT_
 RUN mv apache-tomcat-${TOMCAT_VERSION}.tar.gz /usr/local/ && cd /usr/local/ && tar -xvzf apache-tomcat-${TOMCAT_VERSION}.tar.gz && \
  mv apache-tomcat-${TOMCAT_VERSION} apache-tomcat
 COPY code/ /root/devops
-RUN cd /root/devops && mvn clean install && cp /root/devops/target/TestProject.war /usr/local/apache-tomcat/webapps/
+WORKDIR /root/devops
+RUN  mvn clean install && cp /root/devops/target/TestProject.war /usr/local/apache-tomcat/webapps/
 WORKDIR /usr/local/apache-tomcat/bin/
 #RUN chmod +x *.sh
 #RUN ls -al
