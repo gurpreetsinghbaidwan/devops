@@ -10,9 +10,8 @@ ENV TOMCAT_VERSION 8.5.9
 RUN wget http://ftp.riken.jp/net/apache/tomcat/tomcat-${TOMCAT_MAJOR}/v${TOMCAT_VERSION}/bin/apache-tomcat-${TOMCAT_VERSION}.tar.gz
 RUN mv apache-tomcat-${TOMCAT_VERSION}.tar.gz /usr/local/ && cd /usr/local/ && tar -xvzf apache-tomcat-${TOMCAT_VERSION}.tar.gz && \
  mv apache-tomcat-${TOMCAT_VERSION} apache-tomcat
-COPY code/ /root/devops
-WORKDIR /root/devops/
-RUN  mvn clean install && cp /root/devops/target/TestProject.war /usr/local/apache-tomcat/webapps/
+COPY code/ /root/code
+RUN cd /root/code && mvn clean install && cp /root/code/target/TestProject.war /usr/local/apache-tomcat/webapps/
 WORKDIR /usr/local/apache-tomcat/bin/
 #RUN chmod +x *.sh
 #RUN ls -al
